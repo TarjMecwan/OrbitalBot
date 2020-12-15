@@ -16,19 +16,19 @@ bot.on('message', message=>{
         case 'website':
             message.channel.send('The website is....')
             break;
-        case 'documentation':
+        case 'rules':
             message.channel.send({embed: {
-                color: 3447003,
+                color: "#00FFFF",
                 author: {
-                  name: 'Tarj Mecwan',
-                  icon_url: "https://cdn.discordapp.com/attachments/761753649290412032/777279256819662879/a_5abff6ac9d7c26f562030a50c1f82a3f.gif"
+                  name: 'Orbital',
+                  url: "http://orbitalcommunity.com",
+                  icon_url: "https://cdn.discordapp.com/attachments/788239168601325571/788434182737100861/orbitalmc.png"
                 },
-                title: "This is an embed",
-                url: "http://google.com",
-                description: "This is a test embed to showcase what they look like and what they can do.",
+                title: "Orbital Discord Rules", 
+                description: "Welcome! This is a server for the Universit of Waterloo students to converse, socialize, and come together and embrace our cultures! To participate in this server, you must abide by the following rules:",
                 fields: [{
-                    name: "Fields",
-                    value: "They can have different fields with small headlines."
+                    name: ":calendar:  **Last Updated:** December 15, 2020",
+                    value: "hi there"
                   },
                   {
                     name: "Masked links",
@@ -41,8 +41,8 @@ bot.on('message', message=>{
                 ],
                 timestamp: new Date(),
                 footer: {
-                  icon_url: "https://cdn.discordapp.com/attachments/761753649290412032/777279256819662879/a_5abff6ac9d7c26f562030a50c1f82a3f.gif",
-                  text: "© Example"
+                  icon_url: "https://cdn.discordapp.com/attachments/788239168601325571/788434182737100861/orbitalmc.png",
+                  text: "Orbital"
                 }
               }
             });
