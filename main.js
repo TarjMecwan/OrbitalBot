@@ -50,4 +50,4 @@ bot.on('message', message=>{
     }
 })
 
-bot.login('Nzg4MjM3ODQ3NjYzNzM4OTA1.X9glsw.0KIWmzjzpjR3swl8IQKwS3SmbAI');
+bot.login('');
